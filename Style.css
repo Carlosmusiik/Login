@@ -1,0 +1,103 @@
+body {
+    background-image: radial-gradient(circle at 50% -20.71%, 
+        #6effa7 0%, #90ffab 12.5%, #76fff0 25%, 
+        #54fffb 37.5%, #48fbff 50%, #0fb6c2 62.5%, 
+        #00b8ca 75%, #00f4d3 87.5%, #00fdfc 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif, 'Open Sans', sans-serif, 'PT Sans', sans-serif;
+}
+
+form {
+    width: 500px;
+    border: 2px solid black;
+    padding: 2rem;
+    background-color: #222; /* Fondo más oscuro */
+    border-radius: 20px;
+    color: aliceblue;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #444; /* Línea divisoria más estética */
+    margin: 1.5rem 0;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.input-group span.material-icons {
+    font-size: 24px;
+    color: aliceblue;
+    margin-right: 10px;
+}
+
+label {
+    color: aliceblue;
+    font-size: 16px;
+    flex: 1;
+}
+
+input {
+    width: 100%;
+    border: 2px solid #444;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #333; /* Fondo oscuro */
+    color: aliceblue;
+}
+
+input:focus {
+    border-color: #00fdfc; /* Color al enfocar */
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #00fdfc;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: #00fdfc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+.error {
+    background-color: rgb(175, 74, 74);
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px;
+}
